@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7450269f.css",
-    "main.js": "/static/js/main.28f1ff2c.js",
-    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
-    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
-    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
-    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
-    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
-    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
-    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
-    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
-    "index.html": "/index.html",
-    "main.7450269f.css.map": "/static/css/main.7450269f.css.map",
-    "main.28f1ff2c.js.map": "/static/js/main.28f1ff2c.js.map"
+    "main.css": "/tsyp/static/css/main.b899d0b5.css",
+    "main.js": "/tsyp/static/js/main.a99b2d3c.js",
+    "static/media/fa-solid-900.ttf": "/tsyp/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/tsyp/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/tsyp/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/tsyp/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/tsyp/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/tsyp/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/tsyp/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/tsyp/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/tsyp/index.html",
+    "main.b899d0b5.css.map": "/tsyp/static/css/main.b899d0b5.css.map",
+    "main.a99b2d3c.js.map": "/tsyp/static/js/main.a99b2d3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7450269f.css",
-    "static/js/main.28f1ff2c.js"
+    "static/css/main.b899d0b5.css",
+    "static/js/main.a99b2d3c.js"
   ]
 }
