@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import useAuth from "./hooks/useAuth";
+import MainPage from "./pages/MainPage";
+import ShoppingPage from "./pages/ShoppingPage";
+import SigninPage from "./pages/SigninPage";
+import SignupPage from "./pages/SignupPage";
 
-function App() {
+const App = () => {
+  const { getUser, user } = useAuth();
+  useEffect(() => {
+    getUser();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route
+        exact
+        path="/"
+        element={user ? <MainPage /> : <Navigate to={"/login"} />}
+      />
+      <Route
+        exact
+        path="/login"
+        element={user ? <Navigate to="/" /> : <SigninPage />}
+      />
+      <Route
+        exact
+        path="/signup"
+        element={user ? <Navigate to="/" /> : <SignupPage />}
+      />
+      <Route path="/shop/:name/:id" exact element={<ShoppingPage />} />
+    </Routes>
   );
-}
+};
 
 export default App;
