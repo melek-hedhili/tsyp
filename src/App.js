@@ -16,6 +16,7 @@ const App = () => {
     <Routes>
       <Route
         exact
+        index
         path="/main"
         element={user ? <MainPage /> : <Navigate to={"/login"} />}
       />
