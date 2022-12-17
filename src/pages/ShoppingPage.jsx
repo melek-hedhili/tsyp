@@ -234,7 +234,7 @@ const ShoppingPage = () => {
                             }}
                             onEnded={() => reset()}
                           >
-                            <source src={"/ooredoo.mp4"} type="video/mp4" />
+                            <source src={"/jumia.mp4"} type="video/mp4" />
                             Sorry, your browser doesn't support embedded videos.
                           </video>
                         </MDBModalBody>

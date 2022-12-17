@@ -48,7 +48,8 @@ function Header() {
       position="static"
       style={{
         backgroundColor: "#2074d4",
-        backgroundImage: `url(https://media.tenor.com/xDH6oELEQs4AAAAd/stars-sky.gif)`,
+        backgroundImage: `url(https://64.media.tumblr.com/07aeb9ee5daad67fa66f44706da50f9c/tumblr_npvj6c8Qhz1rgda2fo3_500.gifv)`,
+        //backgroundImage: `url(https://media.tenor.com/xDH6oELEQs4AAAAd/stars-sky.gif)`,
       }}
     >
       <Container maxWidth="xl">
@@ -89,7 +90,10 @@ function Header() {
               }}
             >
               <MenuItem>
-                <Typography textAlign="center" onClick={() => navigate("/")}>
+                <Typography
+                  textAlign="center"
+                  onClick={() => navigate("/main")}
+                >
                   Home
                 </Typography>
               </MenuItem>
@@ -98,7 +102,7 @@ function Header() {
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <Button
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/main")}
               sx={{ my: 2, color: "white", display: "block" }}
             >
               Home

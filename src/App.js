@@ -16,18 +16,18 @@ const App = () => {
     <Routes>
       <Route
         exact
-        path="/"
+        path="/main"
         element={user ? <MainPage /> : <Navigate to={"/login"} />}
       />
       <Route
         exact
         path="/login"
-        element={user ? <Navigate to="/" /> : <SigninPage />}
+        element={user ? <Navigate to="/main" /> : <SigninPage />}
       />
       <Route
         exact
         path="/signup"
-        element={user ? <Navigate to="/" /> : <SignupPage />}
+        element={user ? <Navigate to="/main" /> : <SignupPage />}
       />
       <Route path="/shop/:name/:id" exact element={<ShoppingPage />} />
     </Routes>
